@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Active from './Active';
 import Lang from './Lang';
 import Name from './Name';
@@ -15,7 +15,8 @@ import Gender from './Gender';
 export default function App() {
   return (
     <div>
-      <BrowserRouter>
+      
+      <HashRouter>
         <Routes>
         <Route path="/" element={<Welcome />} />
           <Route path='/signup' element={<SignUp/>} />
@@ -29,7 +30,7 @@ export default function App() {
           <Route path="/active" element={<Active />} />
           <Route path="/next" element={<Health/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
