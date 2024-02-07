@@ -201,7 +201,7 @@ export default function Where() {
         <br /> <br />
         <div className="d-flex justify-content-between">
           {/* Back button */}
-          <a href="/name" className="btn btn-dark">
+          <a href="/what" className="btn btn-dark">
             Back
           </a>
           {/* Next button */}

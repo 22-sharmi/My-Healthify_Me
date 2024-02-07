@@ -37,7 +37,7 @@ export default function Active() {
             <p>Based on your lifestyle, we can assess your daily calorie requirements</p>
             <div className="row justify-content-center">
                 <div className="col-md-6">
-                    <div className={classNames('Activecard mb-3', { selected: selectedCard === 'Little or No Activity' })} onClick={() => handleCardClick('Little or No Activity')} style={{maxWidth:"540px"}}>
+                    <div className={classNames('Active card mb-3', { selected: selectedCard === 'Little or No Activity' })} onClick={() => handleCardClick('Little or No Activity')} style={{maxWidth:"540px"}}>
                         <div className="row g-0">
                             <div className="col-md-4">
                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMxhqCmWcjcOr3XJDwSJrAFXN8nk28ITeqqg&usqp=CAU" className="m-2 img-fluid" alt="Little or No Activity" width={"70px"} />
